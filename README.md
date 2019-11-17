@@ -1,6 +1,11 @@
 # trab-ad-20192
 Trabalho universitário da UFF da matéria avaliação e desempenho feito em 2019.2.
 
+## Como executar
+
+1. Baixe a ferramenta [aqui](http://jmt.sourceforge.net/Download.html).
+2. Abra o arquivo `Projeto final - Oficina mecânica.jsimg` na ferramenta e execute.
+
 ## Descrição do projeto
 
 O trabalho consiste em modelar uma oficina mecânica como um sistema de fila na ferramenta `Java Modelling Tools - JMT`.
