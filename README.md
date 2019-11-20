@@ -10,14 +10,15 @@ Trabalho universitário da UFF da matéria avaliação e desempenho feito em 201
 
 O trabalho consiste em modelar uma oficina mecânica como um sistema de fila na ferramenta `Java Modelling Tools - JMT`.
 
-O jovem estudante da UFF Martchelo sempre está atualizado sobre novas tendências da tecnologia, nos últimos meses Martchelo descobriu o Rubens Eats, plataforma de pedidos e entregas de refeições, depois que Martchelo experimentou nunca mais parou e toda semana ele pelo menos faz um pedido na plataforma.
+O empreendedor Martchelo sempre foi apaixonado por carros, desde criança seu assunto favorito era carros e conforme foi crescendo, seus pensamentos e conhecimentos sobre esse tipo de automóvel também foram amadurecendo.
 
-Após uma aula de avaliação e desempenho em sua faculdade, Martchelo ficou fascinado sobre o assunto simulação, e ao chegar em casa decidiu que faria um exercício sobre o novo tema abordado. Martchelo sempre foi muito criativo, assim sendo, decidiu juntar ao seus estudos aquilo que hoje é quase rotina em sua vida, pedidos no Rubens Eats.
+Hoje o mesmo tem a vontade de abrir uma oficina automobilística, como Martchelo sabe que não é tão simples começar um negócio, então ele usou de seus conhecimentos sobre simulação de filas para avaliar como que poderia ser seu negócio.
 
-Depois de algum tempo refletindo, Martchelo chegou ao seguinte sistema formulado:
+Após algum tempo de estudo, Martchelo chegou à seguinte conclusão: 
 
-Primeiramente existiria uma fila onde seria a chegada de pedidos no sistema, após o pedidos ser aceito, existiria a probabilidade de 35% desses serem pedidos premium (entregues por motos ou carros) e 65% serem pedidos comuns (entregues por bicicletas).
+A primeira parte do sistema seria o atendimento no balcão, onde os cliente chegariam na oficina e seriam identificados os problemas em seus veículos.
 
-Martchelo sabe que existe a possibilidade de tanto os entregadores como o próprio cliente cancelarem a entrega no momento, fazendo com que assim, o pedido volte a esperar por um novo aceite de entregador.
+Após essa fase haveria uma ramificação em 3 tipos de "esteiras" de operações, uma dedicada a consertos de suspensão (com probabilidade de 35%), outra de motorização (com probabilidade de 45%) e uma final de parte elétrica (com probabilidade de 20%).
 
-Por fim, em ambos os tipos de pedidos, o pedido final é entregue ao cliente.
+Após o conserto ser realizado, todas as 3 "esteiras" iriam se juntar numa fase de test-drive de avaliação do cliente onde após o teste o automóvel pode voltar para o conserto (caso haja insatisfação do cliente, probabilidade de 5% para voltar ao atendimento de suspensão, 2.5% para motorização e 2.5% para parte elétrica) ou ir para a fase de pagamento (caso esteja tudo correto e de agrado do cliente, probabilidade de 90%). 
+
